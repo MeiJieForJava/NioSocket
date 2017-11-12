@@ -24,6 +24,7 @@ public class Client {
     private SocketChannel socketChannel;
 
     public Client() {
+        //test
         try {
             socketChannel = SocketChannel.open();
             InetAddress host = InetAddress.getLocalHost();
